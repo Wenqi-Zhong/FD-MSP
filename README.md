@@ -109,21 +109,8 @@ FD-MSP/
   <p><i>Figure 2: Qualitative segmentation results on polyp datasets</i></p>
 </div>
 
-## Acknowledgements
-This project builds upon several excellent works:
-- ProDA: https://github.com/microsoft/ProDA
-- FADA: https://github.com/JDAI-CV/FADA
-- semseg: https://github.com/hszhao/semseg
-- ScaleProtoSeg
 
 ## License
 See LICENSE file for details.
 
-## Citation
-If you find this work useful, please consider citing:
-```bibtex
-@inproceedings{fdmsp2024,
-  title={FD-MSP: Feature Decoupling with Multi-Scale Prototype for Domain Adaptive Polyp Segmentation},
-  year={2024}
-}
-```
+
