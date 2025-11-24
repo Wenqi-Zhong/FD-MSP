@@ -101,14 +101,9 @@ FD-MSP/
 └── requirements.txt    # Dependencies
 ```
 
-## Results
-The model achieves strong performance on polyp segmentation tasks:
-- Mean IoU: 0.833+
-- Mean Dice: 0.891+
-- Polyp class IoU: 0.701+
-- Polyp class Dice: 0.801+
 
-### Qualitative Results
+
+## Qualitative Results
 <div align="center">
   <img src="figures/qualitative.png" alt="Qualitative Results" width="800"/>
   <p><i>Figure 2: Qualitative segmentation results on polyp datasets</i></p>
