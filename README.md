@@ -9,25 +9,7 @@ FD-MSP is a domain adaptive segmentation framework for medical polyp segmentatio
   <p><i>Figure 1: Overview of the FD-MSP framework</i></p>
 </div>
 
-## Features
-- Multi-phase training strategy
-- Multi-scale prototype-guided learning
-- Domain adaptive feature extraction
-- Support for multiple polyp segmentation datasets
 
-## Supported Datasets
-
-### EndoTect
-Endoscopic polyp detection dataset for training.
-
-### CVC-ClinicDB
-Clinical colonoscopy database for validation and testing.
-
-### Kvasir-SEG
-Gastrointestinal polyp segmentation dataset.
-
-### EndoScene
-Endoscopy scene segmentation dataset.
 
 ## Installation
 
