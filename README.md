@@ -4,6 +4,11 @@ Feature Decoupling with Multi-Scale Prototype for Domain Adaptive Polyp Segmenta
 ## Overview
 FD-MSP is a domain adaptive segmentation framework for medical polyp segmentation. It combines feature decoupling strategies with multi-scale prototype learning to achieve robust cross-domain polyp detection and segmentation.
 
+<div align="center">
+  <img src="figures/overview.png" alt="FD-MSP Overview" width="800"/>
+  <p><i>Figure 1: Overview of the FD-MSP framework</i></p>
+</div>
+
 ## Features
 - Multi-phase training strategy
 - Multi-scale prototype-guided learning
@@ -102,6 +107,12 @@ The model achieves strong performance on polyp segmentation tasks:
 - Mean Dice: 0.891+
 - Polyp class IoU: 0.701+
 - Polyp class Dice: 0.801+
+
+### Qualitative Results
+<div align="center">
+  <img src="figures/qualitative.png" alt="Qualitative Results" width="800"/>
+  <p><i>Figure 2: Qualitative segmentation results on polyp datasets</i></p>
+</div>
 
 ## Acknowledgements
 This project builds upon several excellent works:
