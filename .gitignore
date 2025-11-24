@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+*.pth
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files and checkpoints
+snapshots/
+snapshots_*/
+pretrained/
+*.pth
+*.pkl
+*.pickle
+
+# Data files
+datasets/
+data/*.npy
+data/*.p
+*.npy
+*.p
+class_balance_ids_*.p
+*_soft_labels/
+pseudo_labels/
+soft_labels/
+
+# Logs and results
+log/
+logs/
+logs_*/
+*.log
+train_log.txt
+training_log*.txt
+results/
+test_results/
+test_results_*/
+output/
+debug/
+
+# Temporary and backup files
+*.backup
+*.bak
+*.tmp
+core.*
+*.zip
+
+# Scripts
+slurm_cmd/
+check.py
